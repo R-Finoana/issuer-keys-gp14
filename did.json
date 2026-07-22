@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:key:z6Mkgroupe14rsa12345678",
+  "verificationMethod": [
+    {
+      "id": "did:key:z6Mkgroupe14rsa12345678#key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:key:z6Mkgroupe14rsa12345678",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "uRKJqExRchA-jL_XRtl7__sWjHsIleKA-8XcKSYeTPIteUdDKSiGsL1emkpd1i8obNwwV5oZ63hociegSME0JX-Qb3pEVgKyugItKGj13dub-pSvVMoZVieopkiDDP69OuYIcw5ff6RPKlbzBuFJKeLzCiKrIpskrCttgE-b2E3rhplS8EvjHw4GCm5d6BGQgsV0UYiuHyINiT4FqWJUFFcBTTwriA5kvCjk9l6-MRVogxlKKU3ybKqqjpq08Ju1YRh7-xY_wWwiO8ddM_zhga9ud8GJRfC7F6rP-aAvjpyCra0w2kgZxdFK-xwJsNQowOBYhq_uKbR6klnf-xOtkrZrs65B2vRJa01MnkzN_80fiedglgOUIMwDh2sb7ldqQHU8bwAq0p-oZLAuh-NcEjCAZI5E_n25fWq8tl1BT-re6z9v9JAGWpg-f86TUxnzVB4bp_7TTrMtoqtYbkfyIQCcVmlRV8GcKx3POnLDPfuyIeFYl-g-MvxV0MRV-aJwfFAt4o4lErRbrO5BYjFi3cAZuJ4vNus2q9xO4y18-23F6EyLyilBqWGn0XQUj5RllROWwT6a2opzIXmtK0IH7IwKuk2bheKxE3pMsxSemKCR_W84kdwxAcWjagNmkIskEX0JSVczTKHbW9HAIRJXFAeqR6VbZqEY_XwgL22wh1E",
+        "e": "AQAB"
+      }
+    }
+  ],
+  "authentication": [
+    "did:key:z6Mkgroupe14rsa12345678#key-1"
+  ],
+  "assertionMethod": [
+    "did:key:z6Mkgroupe14rsa12345678#key-1"
+  ],
+  "keyAgreement": [],
+  "capabilityDelegation": [],
+  "capabilityInvocation": []
+}
